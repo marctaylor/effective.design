@@ -1,0 +1,140 @@
+/*generated fonts*/
+
+@font-face {
+    font-family: 'ef_001';
+    src: url('../fonts/ef-001-webfont.eot');
+    src: url('../fonts/ef-001-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ef-001-webfont.woff2') format('woff2'),
+    url('../fonts/ef-001-webfont.woff') format('woff'),
+    url('../fonts/ef-001-webfont.ttf') format('truetype'),
+    url('../fonts/ef-001-webfont.svg#ef_001regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ef_002';
+    src: url('../fonts/ef-002-webfont.eot');
+    src: url('../fonts/ef-002-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ef-002-webfont.woff2') format('woff2'),
+    url('../fonts/ef-002-webfont.woff') format('woff'),
+    url('../fonts/ef-002-webfont.ttf') format('truetype'),
+    url('../fonts/ef-002-webfont.svg#ef_002italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-regular-webfont.woff') format('woff'),
+    url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.font01 {
+    font-family: 'ef_001', sans-serif;
+}
+.font02 {
+    font-family: 'ef_002', serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 100%;
+}
+body {
+    background: #e91e63;
+    color: rgba(255,255,255,0.87);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    float:left;
+}
+h1, h2, h3, h4 {
+    font-weight: normal;
+}
+h1 {
+    font-size: 8.62rem;
+    text-transform: uppercase;
+    color: rgba(255,255,255, 0.87);
+}
+h1 span {
+    color: rgba(35,35,35, 0.87);
+    padding-left: 0.2rem;
+    letter-spacing: -0.3rem;
+}
+h1:after {
+    width: 8rem;
+    border-bottom: 0.8rem solid rgba(255,255,255,0.87);
+    display: block;
+    content: '';
+    padding-bottom: 1rem;
+    margin-bottom: 3.4rem;
+}
+span.subtitle {
+    font-size: 3.0rem;
+    padding-bottom: 1rem;
+    display: block;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+ul li span {
+    height: 4.0rem;
+    width: 4.0rem;
+    line-height: 4.0rem;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+a {
+    color: rgba(255,255,255,0.87);
+    text-decoration: underline;
+}
+.ux-bg {
+    background-color: #00796b;
+}
+.ui-bg {
+    background-color: #00bcd4;
+}
+.print-bg {
+    background-color: #ff9800;
+}
+section.categories {
+    width: calc(100% - 330px);
+    display: inline-block;
+    float: left;
+}
+section.contact {
+    width: 330px;
+    display:inline-block;
+    text-align: right;
+    float: right;
+}
+.button {
+    padding: 18px 18px 18px 18px;
+    background-color: rgba(255,255,255,0.87);
+    color: rgba(35,35,35,0.87);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border: 0;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    display: block;
+    text-decoration: none;
+}
+
+
